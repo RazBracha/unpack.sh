@@ -1,2 +1,2 @@
 # unpack.sh
-This script recursively unpacks compressed files in a specified directory, with options for verbosity and handling of different compression formats.
+The Decompressor Pro script automates the decompression of various file formats within a specified directory, supporting gzip, bzip2, Zip, and Unix compress. It offers options for recursive traversal (-r) and verbose output (-v), using functions to handle individual files and directories accordingly. The script tracks the number of decompressed files and ensures the recursive option is only applied to directories, providing clear feedback and robust error handling.
